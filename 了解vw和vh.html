@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体验vw和vh</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            width: 20vw;
+            height: 10vw;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.什么是Vw,h ?
+            a)本质上也是css中的一个单位（相对单位）
+            b)vw,vh是相对当前设备的宽度或高度1Vw=当前设备宽度/100
+            c)  v ->view w -width
+        2.w,h有什么用？
+            a)未来的主流适配解决
+            b)如果要使用vw,vh适配，那么推荐使用vw，不推荐混合使用
+`
+        3.w,h怎么用？ -->
+    <div class="box"></div>
+</body>
+</html>
